@@ -35,7 +35,7 @@ withCredentials([string(credentialsId: 'dockerhubpwd', variable: 'dockerhubpwd')
 bat 'docker login -u bloodysaint -p Reddevils@07'
 }
 
-                   bat 'docker push bloodysaint/:latest'
+                   bat 'docker push bloodysaint/gettimedate_docker_azure:latest'
                 }
             }
         }
