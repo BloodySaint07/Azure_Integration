@@ -66,6 +66,8 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>GetTimeDate_Docker_Azure</finalName>
+
 	</build>
 
 </project>
