@@ -3,7 +3,9 @@ pipeline {
     tools{
         maven 'MAVEN'
     }
-
+    environment{
+    DOCKERHUB_CREDENTIALS=credentials('dockerhubpwd')
+    }
     stages{
         stage('Build Maven'){
             steps{
@@ -21,14 +23,16 @@ pipeline {
         }
         stage('Push image to Hub'){
             steps{
+             sh 'echo $DOCKERHUB_CREDENTIALS_PSW | DOCKERHUB_CREDENTIALS_USR --password-stdin'
                 script{
                    //withCredentials([string(credentialsId: 'dockerhub-pwd', variable: 'dockerhubpwd')]) {
-                    withCredentials([string(credentialsId: 'dockerhubpwd', variable: 'dockerhubpwd')]) {
-                    bat 'docker login -u bloodysaint -p ${dockerhubpwd}'
+                   // withCredentials([string(credentialsId: 'dockerhubpwd', variable: 'dockerhubpwd')]) {
+                  // bat 'docker login -u bloodysaint -p ${dockerhubpwd}'
 
-}
+
+//}
                    bat 'docker push bloodysaint/gettimedate_docker_azure'
-                }
+                //}
             }
         }
 
