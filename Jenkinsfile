@@ -32,7 +32,7 @@ pipeline {
 
 }
                    bat 'docker push bloodysaint/gettimedate_docker_azure'
-                //}
+                }
             }
         }
 
