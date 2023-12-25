@@ -25,7 +25,7 @@ pipeline {
                    bat 'docker login -u bloodysaint -p ${dockerhubpwd}'
 
 }
-                   bat 'docker push bloodysaint/GetTimeDate_Docker_Azure'
+                   bat 'docker push bloodysaint/gettimedate_docker_azure'
                 }
             }
         }
