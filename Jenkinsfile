@@ -17,7 +17,7 @@ pipeline {
         stage('Build docker image'){
             steps{
                 script{
-                    bat 'docker build -t bloodysaint/azure_integration .'
+                    bat 'docker build -t bloodysaint/azure_integration:latest .'
                 }
             }
         }
@@ -33,9 +33,7 @@ pipeline {
 // }
 withCredentials([string(credentialsId: 'dockerhubpwd', variable: 'dockerhubpwd')]) {
 bat 'docker login -u bloodysaint -p Reddevils@07'
-}
-                   bat 'docker tag gettimedate_docker_azure bloodysaint/gettimedate_docker_azure'
-                   bat 'docker push bloodysaint/gettimedate_docker_azure'
+                   bat 'docker push bloodysaint/gettimedate_docker_azure:latest'
                 }
             }
         }
