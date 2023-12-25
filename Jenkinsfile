@@ -27,7 +27,7 @@ pipeline {
                    //withCredentials([string(credentialsId: 'dockerhub-pwd', variable: 'dockerhubpwd')]) {
                     withCredentials([string(credentialsId: 'dockerhubpwd', variable: 'dockerhubpwd')]) {
                   // bat 'docker login -u bloodysaint -p ${dockerhubpwd}'
-                  sh 'echo $DOCKERHUB_CREDENTIALS_PSW | DOCKERHUB_CREDENTIALS_USR --password-stdin'
+                     bat 'docker login'
 
 }
                    bat 'docker push bloodysaint/gettimedate_docker_azure'
