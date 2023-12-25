@@ -1,0 +1,1 @@
+java  -jar  D:\Eclipse_Workspace\GetTimeDate\out\artifacts\GetTimeDate_jar2\GetTimeDate.jar

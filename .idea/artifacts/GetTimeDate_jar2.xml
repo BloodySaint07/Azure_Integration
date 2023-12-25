@@ -1,0 +1,110 @@
+<component name="ArtifactManager">
+  <artifact name="GetTimeDate:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/GetTimeDate_jar2</output-path>
+    <root id="root">
+      <element id="archive" name="GetTimeDate.jar">
+        <element id="module-output" name="GetTimeDate" />
+      </element>
+      <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.17.2" />
+      <element id="library" level="project" name="Maven: com.microsoft.azure:msal4j:1.13.5" />
+      <element id="library" level="project" name="Maven: jakarta.validation:jakarta.validation-api:2.0.2" />
+      <element id="library" level="project" name="Maven: com.sun.xml.messaging.saaj:saaj-impl:1.5.3" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.5" />
+      <element id="library" level="project" name="Maven: net.minidev:accessors-smart:2.4.9" />
+      <element id="library" level="project" name="Maven: jakarta.annotation:jakarta.annotation-api:1.3.5" />
+      <element id="library" level="project" name="Maven: ch.qos.logback:logback-core:1.2.12" />
+      <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-json:2.7.11" />
+      <element id="library" level="project" name="Maven: org.springframework.ws:spring-xml:3.1.6" />
+      <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.36" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-parameter-names:2.13.5" />
+      <element id="library" level="project" name="Maven: io.netty:netty-codec-socks:4.1.91.Final" />
+      <element id="library" level="project" name="Maven: com.nimbusds:nimbus-jose-jwt:9.22" />
+      <element id="library" level="project" name="Maven: io.netty:netty-transport-native-kqueue:osx-x86_64:4.1.91.Final" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.27" />
+      <element id="library" level="project" name="Maven: io.netty:netty-handler-proxy:4.1.91.Final" />
+      <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.17.2" />
+      <element id="library" level="project" name="Maven: io.netty:netty-transport-native-unix-common:4.1.91.Final" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-oxm:5.3.27" />
+      <element id="library" level="project" name="Maven: io.netty:netty-resolver-dns:4.1.91.Final" />
+      <element id="library" level="project" name="Maven: io.netty:netty-transport-classes-kqueue:4.1.91.Final" />
+      <element id="library" level="project" name="Maven: io.netty:netty-resolver:4.1.91.Final" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.27" />
+      <element id="library" level="project" name="Maven: com.azure:azure-core:1.37.0" />
+      <element id="library" level="project" name="Maven: io.netty:netty-common:4.1.91.Final" />
+      <element id="library" level="project" name="Maven: com.azure.spring:spring-cloud-azure-service:4.7.0" />
+      <element id="library" level="project" name="Maven: io.netty:netty-transport:4.1.91.Final" />
+      <element id="library" level="project" name="Maven: io.netty:netty-buffer:4.1.91.Final" />
+      <element id="library" level="project" name="Maven: io.netty:netty-tcnative-boringssl-static:linux-aarch_64:2.0.59.Final" />
+      <element id="library" level="project" name="Maven: com.azure:azure-core-amqp:2.8.3" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.5" />
+      <element id="library" level="project" name="Maven: com.nimbusds:content-type:2.2" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-core:5.3.27" />
+      <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.36" />
+      <element id="library" level="project" name="Maven: io.netty:netty-tcnative-boringssl-static:osx-x86_64:2.0.59.Final" />
+      <element id="library" level="project" name="Maven: io.netty:netty-resolver-dns-native-macos:osx-x86_64:4.1.91.Final" />
+      <element id="library" level="project" name="Maven: net.java.dev.jna:jna-platform:5.6.0" />
+      <element id="library" level="project" name="Maven: io.projectreactor:reactor-core:3.4.29" />
+      <element id="library" level="project" name="Maven: io.netty:netty-codec-dns:4.1.91.Final" />
+      <element id="library" level="project" name="Maven: io.netty:netty-transport-classes-epoll:4.1.91.Final" />
+      <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-websocket:9.0.74" />
+      <element id="library" level="project" name="Maven: com.microsoft.azure:qpid-proton-j-extensions:1.2.4" />
+      <element id="library" level="project" name="Maven: io.netty:netty-tcnative-boringssl-static:osx-aarch_64:2.0.59.Final" />
+      <element id="library" level="project" name="Maven: net.java.dev.jna:jna:5.5.0" />
+      <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-logging:2.7.11" />
+      <element id="library" level="project" name="Maven: com.github.stephenc.jcip:jcip-annotations:1.0-1" />
+      <element id="library" level="project" name="Maven: com.microsoft.azure:msal4j-persistence-extension:1.1.0" />
+      <element id="library" level="project" name="Maven: org.springframework.ws:spring-ws-core:3.1.6" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.5" />
+      <element id="library" level="project" name="Maven: org.jvnet.staxex:stax-ex:1.8.3" />
+      <element id="library" level="project" name="Maven: org.springframework.session:spring-session-core:2.7.1" />
+      <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:2.7.11" />
+      <element id="library" level="project" name="Maven: jakarta.xml.soap:jakarta.xml.soap-api:1.4.2" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.3.27" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.5" />
+      <element id="library" level="project" name="Maven: com.azure:azure-core-management:1.10.2" />
+      <element id="library" level="project" name="Maven: io.netty:netty-codec:4.1.91.Final" />
+      <element id="library" level="project" name="Maven: jakarta.xml.ws:jakarta.xml.ws-api:2.3.3" />
+      <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.30" />
+      <element id="library" level="project" name="Maven: io.projectreactor.netty:reactor-netty-http:1.0.31" />
+      <element id="library" level="project" name="Maven: io.netty:netty-tcnative-boringssl-static:linux-x86_64:2.0.59.Final" />
+      <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.7.11" />
+      <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-tomcat:2.7.11" />
+      <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web-services:2.7.11" />
+      <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-devtools:2.7.11" />
+      <element id="library" level="project" name="Maven: io.netty:netty-tcnative-classes:2.0.59.Final" />
+      <element id="library" level="project" name="Maven: io.netty:netty-tcnative-boringssl-static:windows-x86_64:2.0.59.Final" />
+      <element id="library" level="project" name="Maven: jakarta.jws:jakarta.jws-api:2.1.0" />
+      <element id="library" level="project" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.5" />
+      <element id="library" level="project" name="Maven: com.nimbusds:lang-tag:1.6" />
+      <element id="library" level="project" name="Maven: org.apache.qpid:proton-j:0.33.8" />
+      <element id="library" level="project" name="Maven: com.azure:azure-core-http-netty:1.13.1" />
+      <element id="library" level="project" name="Maven: io.netty:netty-codec-http:4.1.91.Final" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.3.27" />
+      <element id="library" level="project" name="Maven: io.netty:netty-resolver-dns-classes-macos:4.1.91.Final" />
+      <element id="library" level="project" name="Maven: io.netty:netty-tcnative-boringssl-static:2.0.59.Final" />
+      <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.7.11" />
+      <element id="library" level="project" name="Maven: com.nimbusds:oauth2-oidc-sdk:9.35" />
+      <element id="library" level="project" name="Maven: com.azure:azure-identity:1.8.1" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-web:5.3.27" />
+      <element id="library" level="project" name="Maven: io.netty:netty-transport-native-epoll:linux-x86_64:4.1.91.Final" />
+      <element id="library" level="project" name="Maven: com.azure.spring:spring-cloud-azure-core:4.7.0" />
+      <element id="library" level="project" name="Maven: jakarta.activation:jakarta.activation-api:1.2.2" />
+      <element id="library" level="project" name="Maven: net.minidev:json-smart:2.4.10" />
+      <element id="library" level="project" name="Maven: org.ow2.asm:asm:9.3" />
+      <element id="library" level="project" name="Maven: com.azure.spring:spring-cloud-azure-starter:4.7.0" />
+      <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:2.7.11" />
+      <element id="library" level="project" name="Maven: io.netty:netty-handler:4.1.91.Final" />
+      <element id="library" level="project" name="Maven: io.projectreactor.netty:reactor-netty-core:1.0.31" />
+      <element id="library" level="project" name="Maven: com.azure.spring:spring-cloud-azure-autoconfigure:4.7.0" />
+      <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-el:9.0.74" />
+      <element id="library" level="project" name="Maven: jakarta.xml.bind:jakarta.xml.bind-api:2.3.3" />
+      <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.4" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.3.27" />
+      <element id="library" level="project" name="Maven: io.netty:netty-codec-http2:4.1.91.Final" />
+      <element id="library" level="project" name="Maven: ch.qos.logback:logback-classic:1.2.12" />
+      <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.3.27" />
+      <element id="library" level="project" name="Maven: com.sun.activation:jakarta.activation:1.2.2" />
+      <element id="library" level="project" name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.74" />
+    </root>
+  </artifact>
+</component>
