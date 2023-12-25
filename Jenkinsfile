@@ -17,7 +17,7 @@ pipeline {
         stage('Build docker image'){
             steps{
                 script{
-                    bat 'docker build -t bloodysaint/azure_integration .'
+                    bat 'docker build -t bloodysaint/azure_integration:latest .'
                 }
             }
         }
