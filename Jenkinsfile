@@ -23,7 +23,7 @@ pipeline {
         }
         stage('Push image to Hub'){
             steps{
-             bat '$DOCKERHUB_CREDENTIALS_PSW | DOCKERHUB_CREDENTIALS_USR --password-stdin'
+             sh 'echo $DOCKERHUB_CREDENTIALS_PSW | docker login -u DOCKERHUB_CREDENTIALS_USR --password-stdin'
                 script{
                    //withCredentials([string(credentialsId: 'dockerhub-pwd', variable: 'dockerhubpwd')]) {
 //                     withCredentials([string(credentialsId: 'dockerhubpwd', variable: 'dockerhubpwd')]) {
