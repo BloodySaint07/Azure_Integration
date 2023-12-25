@@ -34,8 +34,8 @@ pipeline {
 withCredentials([string(credentialsId: 'dockerhubpwd', variable: 'dockerhubpwd')]) {
 bat 'docker login -u bloodysaint -p Reddevils@07'
 }
-                   bat 'docker tag gettimedate_docker_azure bloodysaint/gettimedate_docker_azure:latest'
-                   bat 'docker push bloodysaint/gettimedate_docker_azure:latest'
+                   bat 'docker tag gettimedate_docker_azure bloodysaint/gettimedate_docker_azure'
+                   bat 'docker push bloodysaint/gettimedate_docker_azure'
                 }
             }
         }
