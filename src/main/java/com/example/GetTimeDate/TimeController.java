@@ -29,13 +29,25 @@ public class TimeController {
 
     @GetMapping("/time")
     public ResponseEntity<?> getTime() {
+        logger.trace("*** /gettime/api/time *** called in TimeController class ");
+        logger.debug("*** /gettime/api/time *** called in TimeController class ");
         logger.info("*** /gettime/api/time *** called in TimeController class ");
+        logger.isDebugEnabled();
+
 
         return ResponseEntity.ok(LocalDateTime.now());
     }
 
     @GetMapping("/ping")
     public String ping() {
+        logger.trace("*** /gettime/api/ping *** called in TimeController class ");
         return "Time Service Up!!!";
+    }
+
+    @GetMapping("/error")
+    public void logFailedRequest() {
+        logger.error("*** Exception Fired ***");
+        throw new RuntimeException(" Intentional Exception ");
+       // return "Exception Fired !!!";
     }
 }

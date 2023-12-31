@@ -29,8 +29,8 @@ public class GetTimeDateApplication {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(GetTimeDateApplication.class, args);
         ApplicationInsights.attach();
+        SpringApplication.run(GetTimeDateApplication.class, args);
         getCurrentTimeUsingDate();
         getCurrentTimeUsingCalendar();
 

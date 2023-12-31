@@ -3,6 +3,7 @@
 
     <springProperty name="LOG_PATH" source="logging.file" defaultValue="logs" />
 
+<!--    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
     <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOG_PATH}/myapp.log</file>
         <encoder>
@@ -14,7 +15,7 @@
         </rollingPolicy>
     </appender>
 
-    <logger name="com.example" level="INFO" additivity="false">
+    <logger name="com.example" level="TRACE" additivity="false">
         <appender-ref ref="FILE"/>
     </logger>
     <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
@@ -24,7 +25,7 @@
     </appender>
 
 
-    <root level="INFO">
+    <root level="TRACE">
         <appender-ref ref="FILE"/>
     </root>
 </configuration>
