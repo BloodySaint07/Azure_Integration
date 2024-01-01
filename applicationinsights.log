@@ -1,0 +1,8 @@
+2024-01-01 09:52:43.968+05:30 INFO  c.m.applicationinsights.agent - Application Insights Java Agent 3.4.19 started successfully (PID 5952, JVM running for 3.701 s)
+2024-01-01 09:52:43.990+05:30 INFO  c.m.applicationinsights.agent - Java version: 17.0.9, vendor: Oracle Corporation, home: C:\Program Files\Java\jdk-17
+2024-01-01 09:52:47.581+05:30 WARN  c.m.a.a.i.t.AppIdSupplier$GetAppIdTask - Retrieving appId: received 404 from https://eastus-8.in.applicationinsights.azure.com/api/profiles/a662a7c7-cf1b-4219-b572-f30880795646/appId
+full response:
+Profile Not Found (future warnings will be aggregated and logged once every 5 minutes)
+2024-01-01 09:52:48.619+05:30 WARN  c.a.m.o.e.i.p.TelemetryPipeline - Sending telemetry to the ingestion service: Received response code 400 (Invalid instrumentation key) (future warnings will be aggregated and logged once every 5 minutes)
+2024-01-01 09:53:12.327+05:30 WARN  c.a.m.o.e.i.p.TelemetryPipeline - Sending telemetry to the ingestion service (retry from disk): Received response code 400 (Invalid instrumentation key) (future warnings will be aggregated and logged once every 5 minutes)
+2024-01-01 09:53:42.578+05:30 WARN  c.a.m.o.e.i.p.TelemetryPipeline - Sending telemetry to the ingestion service: Received response code 400 (Invalid instrumentation key) (future warnings will be aggregated and logged once every 5 minutes)
